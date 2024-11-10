@@ -3,6 +3,6 @@ body {
 }
 
 .test-danger {
-    background-color: darkslateblue;
-    font-size: 2rem;
+    font-size: 4rem;
+    color: coral;
 }
