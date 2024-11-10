@@ -8,14 +8,3 @@ import './bootstrap.js';
 import './styles/app.css';
 
 console.log('This log comes from assets/app.js - welcome to AssetMapper! 🎉');
-
-// document.addEventListener('DOMContentLoaded', function () {
-
-    const btn = document.getElementById('my-btn');
-
-    if (btn) {
-        // btn.style.display = "none";
-        console.log('ja');
-    }
-
-// });

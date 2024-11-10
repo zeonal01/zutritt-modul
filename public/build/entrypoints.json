@@ -2,19 +2,19 @@
   "entrypoints": {
     "app": {
       "js": [
-        "/build/runtime.js",
-        "/build/app.js"
+        "/build/runtime.05dacd30.js",
+        "/build/app.652303d0.js"
       ],
       "css": [
-        "/build/app.css"
+        "/build/app.be94edd2.css"
       ]
     },
     "justTest": {
       "js": [
-        "/build/runtime.js"
+        "/build/runtime.05dacd30.js"
       ],
       "css": [
-        "/build/justTest.css"
+        "/build/justTest.be94edd2.css"
       ]
     }
   }
