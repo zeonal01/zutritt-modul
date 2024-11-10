@@ -3,9 +3,8 @@
 {% block title %}Hello DashboardController!{% endblock %}
 
  {% block stylesheets %}
-     {{ encore_entry_link_tags('justTest') }}
+     <link rel="stylesheet" href="{{ asset('build/justTest.css') }}">
  {% endblock %}
-{#<link rel="stylesheet" href="{{ asset('build/justTest.css') }}">#}
 {% block javascripts %}
     {{ encore_entry_script_tags('app') }}
     {% block importmap %}{{ importmap('app') }}{% endblock %}
