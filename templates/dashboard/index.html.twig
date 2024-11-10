@@ -1,6 +1,9 @@
 {% extends 'base.html.twig' %}
 
 {% block title %}Hello DashboardController!{% endblock %}
+{% block stylesheets %}
+    {{ encore_entry_link_tags('justTest') }}
+{% endblock %}
 {% block body %}
     <style>
         .example-wrapper {
@@ -13,10 +16,6 @@
         .example-wrapper code {
             background: #F5F5F5;
             padding: 2px 6px;
-        }
-
-        .test-danger {
-            background-color: red;
         }
     </style>
 
