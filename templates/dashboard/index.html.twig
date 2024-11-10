@@ -3,13 +3,13 @@
 {% block title %}Hello DashboardController!{% endblock %}
 
  {% block stylesheets %}
-     {{ encore_entry_link_tags('app') }}
+     {{ encore_entry_link_tags('justTest') }}
  {% endblock %}
-
-    {% block javascripts %}
-        {{ encore_entry_script_tags('app') }}
-        {% block importmap %}{{ importmap('app') }}{% endblock %}
-    {% endblock %}
+{#<link rel="stylesheet" href="{{ asset('build/justTest.css') }}">#}
+{% block javascripts %}
+    {{ encore_entry_script_tags('app') }}
+    {% block importmap %}{{ importmap('app') }}{% endblock %}
+{% endblock %}
 
 {% block body %}
     <style>
