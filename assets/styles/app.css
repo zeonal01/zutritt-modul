@@ -1,3 +1,7 @@
 body {
     background-color: skyblue;
 }
+
+.text-danger {
+    background-color: red;
+}
