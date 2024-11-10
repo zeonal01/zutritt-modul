@@ -8,6 +8,14 @@
       "css": [
         "/build/app.99314c92.css"
       ]
+    },
+    "justTest": {
+      "js": [
+        "/build/runtime.05dacd30.js"
+      ],
+      "css": [
+        "/build/justTest.99314c92.css"
+      ]
     }
   }
 }
