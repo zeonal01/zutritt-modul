@@ -1,9 +1,14 @@
 {% extends 'base.html.twig' %}
 
 {% block title %}Hello DashboardController!{% endblock %}
-{% block stylesheets %}
-    {{ encore_entry_link_tags('justTest') }}
-{% endblock %}
+    {% block stylesheets %}
+        {{ encore_entry_link_tags('app') }}
+    {% endblock %}
+
+    {% block javascripts %}
+        {{ encore_entry_script_tags('app') }}
+        {% block importmap %}{{ importmap('app') }}{% endblock %}
+    {% endblock %}
 {% block body %}
     <style>
         .example-wrapper {
@@ -31,4 +36,5 @@
         </ul>
     </div>
     <h1 class="test-danger">Done!!!</h1>
+    <button type="button" id="my-btn">Click me</button>
 {% endblock %}
